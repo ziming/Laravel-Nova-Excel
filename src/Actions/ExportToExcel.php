@@ -50,7 +50,7 @@ class ExportToExcel extends Action implements FromQuery, WithCustomChunkSize, Wi
     /**
      * @var string
      */
-    protected $resource;
+    public $resource;
 
     /**
      * @var Builder
