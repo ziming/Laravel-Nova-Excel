@@ -52,7 +52,7 @@ class ExportLensActionRequest extends LensActionRequest implements ExportActionR
      *
      * @return \Illuminate\Support\Collection
      */
-    public function availableLenses()
+    public function availableLenses(): Collection
     {
         if (!$this->resourceInstance) {
             $this->resourceInstance = $this->newResource();
