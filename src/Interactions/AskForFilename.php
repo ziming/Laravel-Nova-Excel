@@ -13,7 +13,7 @@ trait AskForFilename
      * @param  callable|null  $callback
      * @return $this
      */
-    public function askForFilename(string $label = null, callable $callback = null)
+    public function askForFilename(?string $label = null, ?callable $callback = null)
     {
         $field = Text::make($label ?? __('Filename'), 'filename');
 

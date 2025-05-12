@@ -15,7 +15,7 @@ trait WithWriterType
      * @param  string|null  $writerType
      * @return $this
      */
-    public function withWriterType(string $writerType = null)
+    public function withWriterType(?string $writerType = null)
     {
         $this->writerType = $writerType;
 

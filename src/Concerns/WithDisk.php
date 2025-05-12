@@ -13,7 +13,7 @@ trait WithDisk
      * @param  string|null  $disk
      * @return $this
      */
-    public function withDisk(string $disk = null)
+    public function withDisk(?string $disk = null)
     {
         $this->disk = $disk;
 

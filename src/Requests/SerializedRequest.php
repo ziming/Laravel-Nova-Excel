@@ -28,7 +28,7 @@ class SerializedRequest
      * @param  string  $resource
      * @param  string|null  $lens
      */
-    public function __construct(string $className, string $resource, string $lens = null)
+    public function __construct(string $className, string $resource, ?string $lens = null)
     {
         $this->className = $className;
         $this->resource  = $resource;

@@ -15,7 +15,7 @@ trait AskForWriterType
      * @param  callable|null  $callback
      * @return $this
      */
-    public function askForWriterType(array $options = null, string $label = null, callable $callback = null)
+    public function askForWriterType(?array $options = null, ?string $label = null, ?callable $callback = null)
     {
         $options = $options ?: [
             Excel::XLS  => 'XLS',

@@ -9,7 +9,7 @@ trait WithHeadingFinder
      * @param  string|null  $default
      * @return string|null
      */
-    public function findHeading(string $attribute, string $default = null)
+    public function findHeading(string $attribute, ?string $default = null)
     {
         // In case attribute is used multiple times, grab last Field.
         $field = collect($this->resourceFields($this->newResource()))

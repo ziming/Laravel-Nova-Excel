@@ -18,7 +18,7 @@ trait WithFilename
      * @param  string|null  $filename
      * @return $this
      */
-    public function withFilename(string $filename = null)
+    public function withFilename(?string $filename = null)
     {
         $this->filename = $filename;
 
