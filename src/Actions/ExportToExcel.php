@@ -43,14 +43,14 @@ class ExportToExcel extends Action implements FromQuery, WithCustomChunkSize, Wi
         WithWriterType;
 
     /**
-     * @var ExportActionRequest|ActionRequest
-     */
-    protected $request;
-
-    /**
      * @var string
      */
     public $resource;
+
+    /**
+     * @var ExportActionRequest|ActionRequest
+     */
+    protected $request;
 
     /**
      * @var Builder
